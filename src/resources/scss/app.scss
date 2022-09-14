@@ -1,1 +1,14 @@
 @import 'variables';
+
+.card-book-item {
+    margin-top: 8px;
+}
+.black-color{
+    color: $color-w;
+}
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 4px;
+}

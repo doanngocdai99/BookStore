@@ -1,0 +1,25 @@
+<div class="mt-4 ml-3">
+    <form method="POST" action="/books/{{book._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="name">Tên sách</label>
+            <input type="test" class="form-control" value="{{book.name}}" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="author">Tác giả</label>
+            <input type="test" class="form-control" value="{{book.author}}" id="author" name="author">
+        </div>
+        <div class="form-group">
+            <label for="price">Giá tiền</label>
+            <input type="test" class="form-control" value="{{book.price}}" id="price" name="price"><label for="">.000 đồng</label>
+        </div>
+        <div class="form-group">
+            <label for="description">Mô tả</label>
+            <textarea class="form-control" id="description" name="description">{{book.description}}2222</textarea>
+        </div>
+        <div class="form-group">
+            <label for="image">Link ảnh</label>
+            <input type="test" class="form-control" value="{{book.image}}" id="image" name="image">
+        </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
